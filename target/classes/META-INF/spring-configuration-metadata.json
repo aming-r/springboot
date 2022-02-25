@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.bean.Person",
+      "sourceType": "com.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.bean.Person"
+    },
+    {
+      "name": "person.sex",
+      "type": "java.lang.Character",
+      "sourceType": "com.bean.Person"
+    }
+  ],
+  "hints": []
+}
