@@ -15,7 +15,7 @@ import java.util.UUID;
  */
 @RestController
 public class FileUploadController {
-    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd");
+    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd/");
     @RequestMapping("/upload")
     public String upload(MultipartFile uploadFile, HttpServletRequest request) {
         String realPath = request.getSession().getServletContext().getRealPath("/uploadFile/");
