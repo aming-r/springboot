@@ -2,3 +2,7 @@ person:
   age: 10
   sex: 男
   name: 杜琛明
+server:
+  servlet:
+    encoding:
+      force-response: true

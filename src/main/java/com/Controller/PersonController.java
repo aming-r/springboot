@@ -16,4 +16,12 @@ Person person;
     public String hello(){
     return person.toString();
 }
+@RequestMapping("/person")
+    public Person person(){
+        Person person1 = new Person();
+        person1.setAge(16);
+        person1.setName("aming");
+        person1.setSex('男');
+        return person1;
+}
 }

@@ -1,5 +1,8 @@
 package com.bean;
 
+import com.alibaba.fastjson.annotation.JSONField;
+import com.alibaba.fastjson.support.spring.annotation.FastJsonFilter;
+import com.alibaba.fastjson.support.spring.annotation.FastJsonView;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import org.springframework.stereotype.Component;
@@ -10,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {
+    @JSONField(serialize = false)
     private String name;
     private int age;
     private char sex;
