@@ -11,6 +11,6 @@ spring:
     multipart:
       enabled: true
       file-size-threshold: 0
-      max-file-size: 40960MB
-      max-request-size: 40960MB
+      max-file-size: 81920MB
+      max-request-size: 81920MB
       resolve-lazily: false
