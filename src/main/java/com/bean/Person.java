@@ -1,10 +1,7 @@
 package com.bean;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import com.alibaba.fastjson.support.spring.annotation.FastJsonFilter;
-import com.alibaba.fastjson.support.spring.annotation.FastJsonView;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-
 import org.springframework.stereotype.Component;
 
 /**

@@ -6,11 +6,12 @@ server:
   servlet:
     encoding:
       force-response: true
+  port: 8080
 spring:
   servlet:
     multipart:
       enabled: true
       file-size-threshold: 0
-      max-file-size: 81920MB
-      max-request-size: 81920MB
+      max-file-size: 2MB
+      max-request-size: 2MB
       resolve-lazily: false
