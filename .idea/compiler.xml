@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="ideaProject" />
+        <module name="springboot" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="ideaProject" options="-parameters" />
+      <module name="springboot" options="-parameters" />
     </option>
   </component>
 </project>
